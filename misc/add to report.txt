@@ -5,3 +5,13 @@ note that the installasion in the tutorial is too old. See the newest installasi
 https://babeljs.io/blog/2015/10/31/setting-up-babel-6
 
 npm install --save-dev babel-preset-env
+
+
+
+Add to the react report
+
+A good text tutorial to start ReactJS, Babel and Webpack:
+https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
+
+A good video tutorial to start ReactJS, Babel and Webpack:
+https://www.youtube.com/watch?v=w5TupxbnnrM&index=5&list=LLL_3tdfMBxvgcKjMzUfyy7w
