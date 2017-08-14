@@ -1,0 +1,7 @@
+babel: the compiler
+webpack: the modern bunlder
+
+note that the installasion in the tutorial is too old. See the newest installasion here:
+https://babeljs.io/blog/2015/10/31/setting-up-babel-6
+
+npm install --save-dev babel-preset-env
