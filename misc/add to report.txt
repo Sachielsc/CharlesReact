@@ -15,3 +15,18 @@ https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
 
 A good video tutorial to start ReactJS, Babel and Webpack:
 https://www.youtube.com/watch?v=w5TupxbnnrM&index=5&list=LLL_3tdfMBxvgcKjMzUfyy7w
+
+
+
+
+
+
+How to update node and npm on windows?
+
+Run PowerShell as Administrator
+
+npm install -g npm-windows-upgrade
+npm-windows-upgrade
+
+reference:
+https://stackoverflow.com/questions/18412129/how-do-i-update-node-and-npm-on-windows
