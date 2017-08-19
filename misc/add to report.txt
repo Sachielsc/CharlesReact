@@ -30,3 +30,9 @@ npm-windows-upgrade
 
 reference:
 https://stackoverflow.com/questions/18412129/how-do-i-update-node-and-npm-on-windows
+
+
+
+
+Tips:
+Try to use Arrow Functions from time to time because they are very concise.
