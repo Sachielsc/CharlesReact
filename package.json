@@ -1,7 +1,7 @@
 {
-  "name": "charles-react-project",
+  "name": "Charles' Web Media Player",
   "version": "1.0.0",
-  "description": "This is Charles' test project powered by ReactJS",
+  "description": "This is a vedio player add powered by ReactJS, made by Charles SHU",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
@@ -10,11 +10,12 @@
     "babel": "babel",
     "webpack": "webpack"
   },
-  "repository": "git@github.com:Sachielsc/React-Charles.git",
+  "repository": "git@github.com:Sachielsc/WebPlayer-Charles.git",
   "keywords": [
     "ReactJS",
     "Charles",
-    "project"
+    "Media",
+    "Player"
   ],
   "author": "Charles",
   "license": "ISC",
