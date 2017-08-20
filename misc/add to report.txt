@@ -36,3 +36,10 @@ https://stackoverflow.com/questions/18412129/how-do-i-update-node-and-npm-on-win
 
 Tips:
 Try to use Arrow Functions from time to time because they are very concise.
+[About Atom] Run apm install atom-shortcuts to install the package. Reference: https://atom.io/packages/atom-shortcuts
+
+
+
+Q & A:
+Q: How to solve the error "setState is not defined"?
+A: If you dont use Arrow Function you have to bind 'this'. Reference: https://stackoverflow.com/questions/39210971/this-setstate-is-undefined
