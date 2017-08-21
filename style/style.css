@@ -137,8 +137,6 @@ body {
   background-color: #323b44;
   outline: none;
   box-sizing: border-box; }
-  .intro span, .aw-game span, .aw-movie span, .meeting span, .aw-community span, .assignment span, .card-box span {
-    color: #5bc0de; }
 
 .intro {
   position: relative;

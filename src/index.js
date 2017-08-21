@@ -21,9 +21,11 @@ class App extends Component {
 	render () {
 		return (
 			<div>
-				<h2>Dear Colonist, type in the key word of the videos you would like to search for:</h2>
-				<SearchBar />
-				<VideoList videos={this.state.video}/>
+				<div className="card-box green-frame shadow-expand">
+					<h3>Dear Colonist, type in the key word of the videos you would like to search for:</h3>
+					<SearchBar />
+					<VideoList videos={this.state.video}/>
+				</div>
 				<DevReport />
 			</div>
 		);
