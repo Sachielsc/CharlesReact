@@ -14,6 +14,7 @@ class SearchBar extends Component {
   render () {
     return (
       <div>
+        <h3>Dear Colonist, type in the key word of the videos you would like to search for:</h3>
         <input onChange={this.onInputChange.bind(this)} />
         <p>{this.state.term}</p>
       </div>
