@@ -11,10 +11,13 @@ const API_KEY = 'AIzaSyAuQCVeNfKhtRk9KlChQPT1nO27DPO_5Ss';
 class App extends Component {
 	constructor (props) {
 		super (props);
-		this.state = { videos: [] };
+		this.state = { videos: [], selectedVideo: null };
 		this.setStateVideo = function (videos) {
-			this.setState({videos});
-			// 等同于 this.setState(videos: videos);
+			this.setState({
+				videos: videos,
+				selectedVideo: videos[0]
+			});
+			// this.setState({videos}); 等同于 this.setState(videos: videos);
 		}
 		Youtube({key: API_KEY, term: 'alien'}, this.setStateVideo.bind(this));
 	}
@@ -24,7 +27,7 @@ class App extends Component {
 			<div className="card-box green-frame shadow-expand">
 				<div>
 					<SearchBar />
-					<VideoDetail videos={this.state.videos[0]}/>
+					<VideoDetail video={this.state.selectedVideo}/>
 					<VideoList videos={this.state.videos}/>
 				</div>
 				<DevReport />
