@@ -11,6 +11,9 @@ const DevReport = () => {
           <li>webpack: the modern bunlder</li>
         </ul>
 
+        <h3>The google API Key I am using:</h3>
+        <pre><code>AIzaSyAuQCVeNfKhtRk9KlChQPT1nO27DPO_5Ss</code></pre>
+
         <h3>Important Tips:</h3>
         <ol>
           <li>note that the installasion in the tutorial is too old. See the newest installasion here:

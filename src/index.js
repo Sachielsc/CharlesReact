@@ -20,8 +20,8 @@ class App extends Component {
 
 	render () {
 		return (
-			<div>
-				<div className="card-box green-frame shadow-expand">
+			<div className="card-box green-frame shadow-expand">
+				<div>
 					<h3>Dear Colonist, type in the key word of the videos you would like to search for:</h3>
 					<SearchBar />
 					<VideoList videos={this.state.video}/>
