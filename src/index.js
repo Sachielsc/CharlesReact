@@ -28,13 +28,10 @@ class App extends Component {
   }
 
   render () {
-
-    const videoSearch = _.debounce( (searchTerm) => {this.videoSearch(searchTerm)}, 900 );
-
     return (
       <div className="card-box green-frame shadow-expand">
         <div>
-          <SearchBar onSearchTermChange={ videoSearch }/>
+          <SearchBar onSearchTermChange={ _.debounce( this.videoSearch.bind(this), 700 ) }/>
           <VideoDetail video={this.state.selectedVideo}/>
           <VideoList
             videos={this.state.videos}
