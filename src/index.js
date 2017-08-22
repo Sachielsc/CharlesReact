@@ -30,7 +30,8 @@ class App extends Component {
 					<VideoDetail video={this.state.selectedVideo}/>
 					<VideoList
 						videos={this.state.videos}
-						onVideoSelect={(selectThis) => this.setState(selectedVideo: selectThis)} />
+						onVideoSelect={(selectThis) => this.setState({selectedVideo: selectThis})}
+					/>
 				</div>
 				<DevReport />
 			</div>
