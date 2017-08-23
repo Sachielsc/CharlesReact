@@ -743,6 +743,10 @@ body {
 
 /* 2. Style for this app:*/
 
+.webmedia-app {
+  min-width: 900px;
+}
+
 .search-bar {
   margin: 20px;
   text-align: center;

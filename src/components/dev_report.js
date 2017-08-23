@@ -3,7 +3,6 @@ import React from 'react';
 const DevReport = () => {
   return (
     <div>
-      <div className="separator"></div>
       <div className="assignment">
         <h3>Basic Concepts:</h3>
         <ul>

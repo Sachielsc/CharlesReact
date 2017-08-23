@@ -29,16 +29,18 @@ class App extends Component {
 
   render () {
     return (
-      <div className="card-box green-frame shadow-expand">
-        <div>
-          <SearchBar onSearchTermChange={ _.debounce( this.videoSearch.bind(this), 700 ) }/>
-          <VideoDetail video={this.state.selectedVideo}/>
-          <VideoList
-            videos={this.state.videos}
-            onVideoSelect={(selectThis) => this.setState({selectedVideo: selectThis})}
-          />
+      <div className="webmedia-app">
+        <div className="card-box green-frame shadow-expand">
+          <SearchBar onSearchTermChange={ _.debounce( this.videoSearch.bind(this), 600 ) }/>
+          <div className="row">
+            <VideoDetail video={this.state.selectedVideo}/>
+            <VideoList
+              videos={this.state.videos}
+              onVideoSelect={(selectThis) => this.setState({selectedVideo: selectThis})}
+            />
+          </div>
         </div>
-        <div>
+        <div className="card-box green-frame shadow-expand">
           <DevReport />
         </div>
       </div>
