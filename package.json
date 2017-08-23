@@ -1,7 +1,7 @@
 {
   "name": "WebMedia-Charles",
   "version": "1.0.0",
-  "description": "This is a vedio player add powered by ReactJS, made by Charles SHU",
+  "description": "This is a video player app made by Charles SHU, using React",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
